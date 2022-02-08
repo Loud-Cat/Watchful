@@ -1,0 +1,9 @@
+<svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+	<rect x="0" y="0" width="50" height="50" fill="white" />
+
+	<polygon points="10,10 40,40 10,40" fill="none" stroke="black" />
+	<polygon points="10,40, 15,40, 15,35, 10,35" fill="none" stroke="black" />
+
+	<text x="5" y="7" font-size="5">(P)</text>
+	<text x="40" y="45" font-size="5">(C)</text>
+</svg>
