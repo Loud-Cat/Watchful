@@ -2,7 +2,7 @@
 const canvas = document.getElementById("c");
 const ctx = canvas.getContext("2d");
 
-// Set widt and height
+// Set width and height
 var width = canvas.width = 500;
 var height = canvas.height = 300;
 
