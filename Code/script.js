@@ -35,7 +35,7 @@ function Line(x, y) {
     if (this.x > e.offsetX) theta = -theta + Math.PI;
 
     // Rotate the line segment to match the mouse
-    var rotatedX = Math.cos(theta) * (point.x - center.x) - Math.sin(theta) * (point.y-center.y) + center.x;
+    var rotatedX = Math.cos(theta) * (point.x - center.x) - Math.sin(theta) * (point.y - center.y) + center.x;
     var rotatedY = Math.sin(theta) * (point.x - center.x) + Math.cos(theta) * (point.y - center.y) + center.y;
     
     // Draw the line
