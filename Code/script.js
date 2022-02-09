@@ -32,7 +32,7 @@ function Line(x, y) {
     // sin(theta) = opposite / hypotenuse
     // sin(theta) = opposite / distance
     let theta = Math.asin( opposite / distance );
-    if (this.x > e.offsetX) theta = (theta * -1) + Math.PI;
+    if (this.x > e.offsetX) theta = -theta + Math.PI;
 
     // Rotate the line segment to match the mouse
     var rotatedX = Math.cos(theta) * (point.x - center.x) - Math.sin(theta) * (point.y-center.y) + center.x;
