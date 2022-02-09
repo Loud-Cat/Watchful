@@ -41,6 +41,7 @@ function Line(x, y) {
     // Draw the line
     ctx.beginPath();
     ctx.lineWidth = 5;
+    ctx.lineCap = "round";
     ctx.strokeStyle = "blue";
 
     ctx.moveTo(this.x, this.y);
